@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Save and Restore Tabs",
+    "version": "1.0",
+    "description": "A Firefox extension to save and restore tabs",
+    "icons": {
+      "48": "icons/tabs48.png",
+      "96": "icons/tabs96.png"
+    },
+    "permissions": [
+      "storage",
+      "tabs",
+      "downloads"
+    ],
+    "browser_action": {
+      "default_title": "Save and Restore Tabs",
+      "default_popup": "popup.html"
+    }
+  }
